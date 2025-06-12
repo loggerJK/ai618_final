@@ -1,6 +1,5 @@
 # Installation
-Use local install the diffusers folder
-Please let us know if you need further guide for environment setting.
+Use local install the diffusers folder. Please let us know if you need further guide for environment setting.
 
 ```bash
 cd diffusers
@@ -39,23 +38,23 @@ You can check implemented perturbations in `diffusers/src/diffusers/models/atten
 
 - `[PROB_PERTURB]zeroout`: zero out the image-image attention map
 - `[PROB_PERTURB]II_identity`: replace the image-image attention map with the identity matrix
-- `[PROB_PERTURB]II_mask`: 
-- `[PROB_PERTURB]IT_mask`: 
-- `[PROB_PERTURB]TI_mask`: 
-- `[PROB_PERTURB]TT_mask`: 
-- `[PROB_PERTURB]TT_identity`: 
-- `[PROB_PERTURB]II_identity_renormalize`: 
+- `[PROB_PERTURB]II_mask`
+- `[PROB_PERTURB]IT_mask`
+- `[PROB_PERTURB]TI_mask`
+- `[PROB_PERTURB]TT_mask`
+- `[PROB_PERTURB]TT_identity`
+- `[PROB_PERTURB]II_identity_renormalize`
 
 ### Attention logit perturbations (before softmax)
-- `[LOGIT_PERTURB]II_identity`:
-- `[LOGIT_PERTURB]II_mask`: 
-- `[LOGIT_PERTURB]IT_mask`: 
-- `[LOGIT_PERTURB]TI_mask`: 
-- `[LOGIT_PERTURB]TT_mask`: 
-- `[LOGIT_PERTURB]TT_identity`: 
-- `smoothed_energy@all`: 
-- `smoothed_energy@img`: 
-- `smoothed_energy@txt`: 
+- `[LOGIT_PERTURB]II_identity`
+- `[LOGIT_PERTURB]II_mask`
+- `[LOGIT_PERTURB]IT_mask`
+- `[LOGIT_PERTURB]TI_mask`
+- `[LOGIT_PERTURB]TT_mask`
+- `[LOGIT_PERTURB]TT_identity`
+- `smoothed_energy@all`
+- `smoothed_energy@img`
+- `smoothed_energy@txt`
 
 
 You can also specify the identity scale for the perturbations.
