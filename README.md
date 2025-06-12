@@ -19,7 +19,6 @@ images = pipe(
     num_inference_steps=20,
     guidance_scale=0.0,
     generator=generator,
-    return_pred_x0=False,
     return_dict=False,
     perturb_heads=perturb_heads,
     perturb_type=perturb_type,
