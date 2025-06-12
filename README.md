@@ -1,8 +1,10 @@
 # Installation
-Use local install the diffusers folder. Please let us know if you need further guide for environment setting.
+Use provided yaml file  local install the diffusers folder. Please let us know if you need further guide for environment setting.
 
 ```bash
-cd diffusers
+conda env create -f guidance_ai618.yaml
+conda activate guidance_ai618
+cd ../diffusers
 pip install -e ".[torch]"
 ```
 
